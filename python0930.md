@@ -52,12 +52,12 @@ list2
 答案是:range(1, 6)
 ```
 ```
-list(range(1,6))
-list2=range(1,6)
+list(range(2,9))
+list2=range(3,7)
 list2
 ```
 ```
-答案是:range(1, 6)
+答案是:range(3, 7)
 ```
 #### range的技術(3)
 ```
