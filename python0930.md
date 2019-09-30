@@ -43,10 +43,27 @@ list(range(1,6))
 ```
 答案是:[1, 2, 3, 4, 5]
 ```
+```
+#list(range(1,6))
+list2=range(1,6)
+list2
+```
+```
+答案是:range(1, 6)
+```
+```
+list(range(1,6))
+list2=range(1,6)
+list2
+```
+```
+答案是:range(1, 6)
+```
 #### range的技術(3)
 ```
-list3=range(1,6,2)
-list3
+list(range(1,6))
+list2=range(1,6)
+list2
 ```
 ```
 答案是:range(1, 6, 2)
