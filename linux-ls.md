@@ -6,10 +6,10 @@ List information about the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
 
 Mandatory arguments to long options are mandatory for short options too.
-  -a, --all                  do not ignore entries starting with .
-  -A, --almost-all           do not list implied . and ..
+  -a, --all                  do not ignore entries starting with . --顯示所有檔案及目錄
+  -A, --almost-all           do not list implied . and ..    --顯示所有文件和目錄，但不顯示現行目錄和上層目錄
       --author               with -l, print the author of each file
-  -b, --escape               print C-style escapes for nongraphic characters
+  -b, --escape               print C-style escapes for nongraphic characters      --顯示脫離字符
       --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,
                                '--block-size=M' prints sizes in units of
                                1,048,576 bytes; see SIZE format below
