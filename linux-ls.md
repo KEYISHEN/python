@@ -13,18 +13,18 @@ Mandatory arguments to long options are mandatory for short options too.
       --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,
                                '--block-size=M' prints sizes in units of
                                1,048,576 bytes; see SIZE format below
-  -B, --ignore-backups       do not list implied entries ending with ~
-  -c                         with -lt: sort by, and show, ctime (time of last
+  -B, --ignore-backups       do not list implied entries ending with ~      --忽略備份文件和目錄
+  -c                         with -lt: sort by, and show, ctime (time of last   --更改時間排序，顯示文件和目錄
                                modification of file status information);
                                with -l: show ctime and sort by name;
                                otherwise: sort by ctime, newest first
-  -C                         list entries by columns
+  -C                         list entries by columns                          --由上至下，從左到右的直行方式顯示文件和目錄名稱
       --color[=WHEN]         colorize the output; WHEN can be 'always' (default
                                if omitted), 'auto', or 'never'; more info below
-  -d, --directory            list directories themselves, not their contents
-  -D, --dired                generate output designed for Emacs' dired mode
-  -f                         do not sort, enable -aU, disable -ls --color
-  -F, --classify             append indicator (one of */=>@|) to entries
+  -d, --directory            list directories themselves, not their contents      --顯示目錄名稱而非其內容
+  -D, --dired                generate output designed for Emacs' dired mode        --用Emacs的模式產生文件和目錄列表
+  -f                         do not sort, enable -aU, disable -ls --color           --此參數的效果和同時指定"aU"參數相同，並關閉"lst"參數的效果。
+  -F, --classify             append indicator (one of */=>@|) to entries            --或--classify在執行文件，目錄，Socket，符號連接，管道名稱後面，各自加上"*","/","=","@","|"號。
       --file-type            likewise, except do not append '*'
       --format=WORD          across -x, commas -m, horizontal -x, long -l,
                                single-column -1, verbose -l, vertical -C
